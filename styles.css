@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple|3d-float');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+p{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section{
+    background-color: rgb(28, 42, 45) ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.online {
+    background-color: rgb(0, 0, rgb(0, 183, 255));
+}
+
+section img {
+    width: 25%;
+    border-radius: 10rem;
+}
+
+section h1 {
+    color: rgb(255, 255, 255);
+    font-size:  3rem;
+    font-weight: 600;
+}
+
+section p {
+    color: rgb(255, 255, 255);
+    font-size:  2rem;
+}
